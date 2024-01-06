@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4578a73f-1720-468f-872d-72a0ba5da179" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/dao/implementaciones/DirectorDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/dao/implementaciones/DirectorDAO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/dao/interfaces/IDirectorDAO.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/dao/interfaces/IDirectorDAO.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/entities/Director.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/entities/Director.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/entities/Pelicula.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/entities/Pelicula.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/directores.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/directores.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2YaHW5kPtalIzCU5d07faasl1zb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="model.dao.interfaces" />
+      <recent name="model.dao.implementaciones" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="CRUD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4578a73f-1720-468f-872d-72a0ba5da179" name="Changes" comment="" />
+      <created>1700756801893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700756801893</updated>
+      <workItem from="1700756802744" duration="10732000" />
+      <workItem from="1700770087446" duration="2756000" />
+      <workItem from="1700788728076" duration="192000" />
+      <workItem from="1701173935659" duration="1219000" />
+      <workItem from="1701186172932" duration="1202000" />
+      <workItem from="1701223938907" duration="492000" />
+      <workItem from="1701280544867" duration="8180000" />
+      <workItem from="1701295169034" duration="2504000" />
+      <workItem from="1701346808502" duration="2536000" />
+      <workItem from="1702230517538" duration="660000" />
+      <workItem from="1702234880300" duration="932000" />
+      <workItem from="1702394345622" duration="88000" />
+      <workItem from="1702582967105" duration="3883000" />
+      <workItem from="1702683404623" duration="1187000" />
+      <workItem from="1702685194095" duration="50000" />
+      <workItem from="1702698790670" duration="1094000" />
+      <workItem from="1702851153229" duration="729000" />
+      <workItem from="1702915569069" duration="780000" />
+      <workItem from="1702926201074" duration="4179000" />
+      <workItem from="1703038376718" duration="647000" />
+      <workItem from="1703106887636" duration="629000" />
+      <workItem from="1703628268929" duration="603000" />
+      <workItem from="1703645828007" duration="594000" />
+      <workItem from="1703689236497" duration="8116000" />
+      <workItem from="1703778853967" duration="2564000" />
+      <workItem from="1703949027622" duration="1902000" />
+      <workItem from="1703952086444" duration="803000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
