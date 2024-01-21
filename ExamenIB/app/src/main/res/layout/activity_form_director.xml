@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.FormDirector">
+
+
+    <TextView
+        android:id="@+id/txtDirector"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Director"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <EditText
+        android:id="@+id/inputNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Ej: Slayther"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/txtNombre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtNombre"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
+
+    <TextView
+        android:id="@+id/txtNacionalidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Nacionalidad:"
+        app:layout_constraintEnd_toEndOf="@+id/inputApellido"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputApellido"
+        app:layout_constraintTop_toBottomOf="@+id/inputApellido" />
+
+    <EditText
+        android:id="@+id/inputNacionalidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Ej: Ecuatoriano"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/txtNacionalidad"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtNacionalidad"
+        app:layout_constraintTop_toBottomOf="@+id/txtNacionalidad" />
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nombre:"
+        app:layout_constraintEnd_toEndOf="@+id/txtDirector"
+        app:layout_constraintHorizontal_bias="0.258"
+        app:layout_constraintStart_toStartOf="@+id/txtDirector"
+        app:layout_constraintTop_toBottomOf="@+id/txtDirector" />
+
+    <EditText
+        android:id="@+id/inputApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Ej: Zamora"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/txtApellido"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtApellido"
+        app:layout_constraintTop_toBottomOf="@+id/txtApellido" />
+
+    <TextView
+        android:id="@+id/txtFechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Fecha Nacimiento:"
+        app:layout_constraintEnd_toEndOf="@+id/inputNacionalidad"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputNacionalidad"
+        app:layout_constraintTop_toBottomOf="@+id/inputNacionalidad" />
+
+    <TextView
+        android:id="@+id/txtApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Apellido"
+        app:layout_constraintEnd_toEndOf="@+id/inputNombre"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputNombre"
+        app:layout_constraintTop_toBottomOf="@+id/inputNombre" />
+
+    <Button
+        android:id="@+id/btnAggDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="Crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnActualizarDirector"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputDate"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <Button
+        android:id="@+id/btnActualizarDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:text="Actualizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputDate"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <EditText
+        android:id="@+id/inputDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Ej: 2003-02-13"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="@+id/txtFechaNacimiento"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtFechaNacimiento"
+        app:layout_constraintTop_toBottomOf="@+id/txtFechaNacimiento" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
