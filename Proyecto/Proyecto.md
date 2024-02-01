@@ -1,11 +1,11 @@
-﻿#Proyecto de móviles
+# Proyecto de móviles
 
 ## Integrantes del grupo:
 
 - Rommel David Merchán Manzanillas
 - Slayther Joshua Zamora Rodríguez
 
-##Business challenge
+## Business challenge
 
 El desafío reside en forjar una experiencia de usuario integral que faculte a los usuarios para compartir calificaciones y reseñas, enriqueciendo así la comunidad y ofreciendo una referencia confiable sobre la calidad del contenido. Además, se busca permitir a los usuarios evaluar la aceptación de sus reseñas mediante la interacción de la comunidad a través de likes y dislikes. La clave para el éxito radica en lograr una integración fluida de estas funcionalidades, impulsando la interacción y participación del usuario, con el fin de construir una plataforma de reseñas y comentarios que sea no solo enriquecedora, sino también altamente personalizada.
 
@@ -89,24 +89,24 @@ Yo como administrador de la aplicación quiero agregar películas recién estren
 
 ### Login
 
-![Prototipo del login](login.png){width=40%}
+![Prototipo del login](login.png)
 
 ### Registrarse
 
-![Prototipo de registrarse](registrarse.png){width=40%}
+![Prototipo de registrarse](registrarse.png)
 
 ### Home
 
-![Prototipo del home](home.png){width=40%}
+![Prototipo del home](home.png)
 
 ### Comentarios
 
-![Prototipo de comentarios](comentarios.png){width=40%}
+![Prototipo de comentarios](comentarios.png)
 
 ### Lista películas
 
-![Prototipo de lista de películas](lista-peliculas.png){width=40%}
+![Prototipo de lista de películas](lista-peliculas.png)
 
 ### Agregar películas
 
-![Prototipo para agregar películas](agregar-pelicula.png){width=40%}
+![Prototipo para agregar películas](agregar-pelicula.png)
