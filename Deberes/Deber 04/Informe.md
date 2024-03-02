@@ -1,4 +1,4 @@
-# TConectando Viajeros: Una Plataforma Colaborativa para Compartir Experiencias de Viaje
+# Conectando Viajeros: Una Plataforma Colaborativa para Compartir Experiencias de Viaje
 
 ## Introducción:
 
