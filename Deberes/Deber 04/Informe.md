@@ -1,4 +1,4 @@
-# Título: Conectando Viajeros: Una Plataforma Colaborativa para Compartir Experiencias de Viaje
+# TConectando Viajeros: Una Plataforma Colaborativa para Compartir Experiencias de Viaje
 
 ## Introducción:
 
