@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearDirector">
+
+    <EditText
+        android:id="@+id/inputNombre"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/inputApellido"
+        app:layout_constraintEnd_toEndOf="@+id/inputApellido"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputApellido"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/inputApellido"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/inputNacionalidad"
+        app:layout_constraintEnd_toEndOf="@+id/inputNacionalidad"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputNacionalidad" />
+
+    <EditText
+        android:id="@+id/inputNacionalidad"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="Nacionalidad"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/inputIdentificador"
+        app:layout_constraintEnd_toEndOf="@+id/inputIdentificador"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputIdentificador" />
+
+    <EditText
+        android:id="@+id/inputIdentificador"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Identificador"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
+
+    <Button
+        android:id="@+id/btnCrearNuevoDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color2"
+        android:text="Crear"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <Button
+        android:id="@+id/btnCancelarCrearDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color2"
+        android:text="Cancelar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <TextView
+        android:id="@+id/txtCrearDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Director"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/inputNombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

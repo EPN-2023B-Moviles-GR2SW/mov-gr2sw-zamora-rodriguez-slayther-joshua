@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarMateria">
+
+    <EditText
+        android:id="@+id/inputEditarGenero"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="Créditosénero"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/inputEditarSoloCines"
+        app:layout_constraintEnd_toEndOf="@+id/inputEditarSoloCines"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputEditarSoloCines" />
+
+    <EditText
+        android:id="@+id/inputEditarImdbId"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="Imdb Id"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/inputEditarTítulo"
+        app:layout_constraintEnd_toEndOf="@+id/inputEditarTítulo"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/inputEditarTítulo" />
+
+    <Button
+        android:id="@+id/btnCancelarEditarPelicula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color2"
+        android:text="Cancelar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <EditText
+        android:id="@+id/inputEditarTítulo"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="28dp"
+        android:ems="10"
+        android:hint="Título"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/inputEditarGenero"
+        app:layout_constraintEnd_toEndOf="@+id/inputEditarGenero"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputEditarGenero" />
+
+    <Button
+        android:id="@+id/btnEditarPelicula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/color2"
+        android:text="Editar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.758"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <EditText
+        android:id="@+id/inputEditarSoloCines"
+        android:layout_width="255dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:hint="Solo en Cines"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
+
+    <TextView
+        android:id="@+id/txtEditarMateria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar Película"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/inputEditarImdbId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
